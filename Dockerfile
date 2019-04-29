@@ -20,7 +20,7 @@ RUN cd /tmp && \
 
 # install kibana
 RUN cd /tmp && \
-    wget -nv https://download.elasticsearch.org/kibana/kibana/kibana-3.1.2.tar.gz && \
+    wget -nv https://download.elasticsearch.org/kibana/kibana/kibana-7.0.0.tar.gz && \
     tar zxf kibana-7.0.0.tar.gz && \
     rm -f kibana-7.0.0.tar.gz && \
     mv /tmp/kibana-7.0.0 /kibana
